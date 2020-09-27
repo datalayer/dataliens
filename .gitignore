@@ -1,0 +1,30 @@
+# Check with git check-ignore -v *
+
+# Exclude.
+.*
+*.log
+*.egg-info
+build
+dist
+lib
+__pycache__
+node_modules
+tsconfig.tsbuildinfo
+yarn.lock
+
+# Include.
+!.*ignore
+!.*rc
+!.*rc.js
+!.*config
+!.github
+!.storybook
+!.vscode
+!.env
+!.gitattributes
+!.readthedocs.yml
+
+# Rexclude
+.storybook/dist
+
+.vercel
