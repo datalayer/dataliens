@@ -10,8 +10,6 @@ maxdepth: 2
 caption: Dataliens
 ---
 about
-dataliens
-eric
 ```
 
 ```{toctree}
